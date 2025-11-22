@@ -28,6 +28,9 @@ def main():
     elif choice == "4":
         import Random_Forest_model as model_lib
         model_lib.run()
+    elif choice == "5":
+        import KNN_model as model_lib
+        model_lib.run()
 
     elif choice == "0":
         print("已退出程序。")

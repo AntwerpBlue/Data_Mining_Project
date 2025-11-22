@@ -18,3 +18,9 @@ lrsvm_X_scaled.csv和lrsvm_y.csv用于SVM和logistic regression模型，区别�
 接下来思路如下:
 1. 可以考虑特征工程，比如根据某几项特征生成新的特征
 2. 尝试运行集成学习、KNN、K-means等方法
+
+
+-----------------
+Update 11.22
+使用KNN，优化AUC到90.17%
+在测试函数中填充了测试集缺失值
